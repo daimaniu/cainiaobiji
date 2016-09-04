@@ -1,0 +1,20 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf8">
+</head>
+<body>
+<p>${toName},你好</p>
+
+<p>欢迎来到菜鸟笔记，您的登录帐号是:${to}</p>
+<a href="http://blog.daimaniu.cn/confirm?code=${code}">请点此完成邮箱验证</a>
+
+<p>(如果以上链接无法点击，请将地址手工复制到浏览器地址栏中访问)
+    <a href="http://blog.daimaniu.cn/confirm?code=${code}">http://blog.daimaniu.cn/confirm?code=${code}</a>
+</p>
+
+<p>----------------------------------------------</p>
+
+<p>此信是由菜鸟笔记发出，请勿直接回复。</p>
+
+</body>
+</html>
