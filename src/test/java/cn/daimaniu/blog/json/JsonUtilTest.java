@@ -13,7 +13,10 @@ import static org.junit.Assert.assertEquals;
  * Author :keepcleargas
  * Date   :2016-09-15 12:07.
  */
-public class JsonUtiTest {
+public class JsonUtilTest {
+    /**
+     * 测试对象的json解析
+     */
     @Test
     public void testJsonObject() {
         UserModel userModel = new UserModel();
@@ -30,6 +33,9 @@ public class JsonUtiTest {
         assertEquals(userModel.getEmail(), deUserModel.getEmail());
     }
 
+    /**
+     * 测试数组的json解析
+     */
     @Test
     public void testJsonArray() {
         List<UserModel> userModels = new ArrayList<>();
